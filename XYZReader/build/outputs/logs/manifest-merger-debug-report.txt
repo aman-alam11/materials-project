@@ -4,6 +4,7 @@ ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/A
 INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
 INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
 MERGED from [com.android.support:support-v13:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/9f02ff19bdc5348da404b97eb2a8c1b4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/8037cb58ac29b78e0fdbc6f06fca2f5d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3cfbfe8c0b8031c726d7bbf3a4aee084/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9cf025530982554613a76caa088c7add/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:palette-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/palette-v7-27.1.1.aar/bd8d7b2ad548071609d2001088024de1/AndroidManifest.xml:17:1-22:12
@@ -16,6 +17,7 @@ MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/aman/.g
 MERGED from [com.android.support:support-core-ui:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a44df40b1eda1b17380a6cd3ea95c180/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/312196d8834993734e167afc7b08e135/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/82fd5431a051eb32fa036e24c2c7da3b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/7844d0fb32868a1f4accdf4a7bed3d93/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7d4dfab10f52dd200cb324a32b9d9a4a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:exifinterface:27.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/4417f44619e9b75276bed90589eff509/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/39fc4ecb3232d6b64834d8c7870cbda6/AndroidManifest.xml:17:1-22:12
@@ -64,12 +66,12 @@ MERGED from [com.squareup.picasso:picasso:2.71828] /Users/aman/.gradle/caches/tr
 		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:15:9-43
-activity#com.example.xyzreader.ui.ArticleListActivity
+activity#com.example.xyzreader.ui.main.ArticleListActivity
 ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:17:9-24:20
 	android:label
 		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:19:13-45
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:18:13-51
+		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:18:13-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
@@ -80,12 +82,12 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:22:17-77
 	android:name
 		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:22:27-74
-activity#com.example.xyzreader.ui.ArticleDetailActivity
+activity#com.example.xyzreader.ui.main.ArticleDetailActivity
 ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:26:9-37:20
 	android:parentActivityName
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:28:13-65
+		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:28:13-70
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:27:13-53
+		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:27:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/vnd.com.example.xyzreader.items
 ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:29:13-33:29
 action#android.intent.action.VIEW
@@ -101,9 +103,9 @@ ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/A
 	android:mimeType
 		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:32:23-97
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:34:13-36:59
+ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:34:13-36:64
 	android:value
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:36:17-56
+		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:36:17-61
 	android:name
 		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:35:17-63
 service#com.example.xyzreader.data.UpdaterService
@@ -126,6 +128,8 @@ INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/mai
 INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
 MERGED from [com.android.support:support-v13:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/9f02ff19bdc5348da404b97eb2a8c1b4/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v13:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/9f02ff19bdc5348da404b97eb2a8c1b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/8037cb58ac29b78e0fdbc6f06fca2f5d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/8037cb58ac29b78e0fdbc6f06fca2f5d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3cfbfe8c0b8031c726d7bbf3a4aee084/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3cfbfe8c0b8031c726d7bbf3a4aee084/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9cf025530982554613a76caa088c7add/AndroidManifest.xml:20:5-44
@@ -150,6 +154,8 @@ MERGED from [com.android.support:support-core-utils:27.1.1] /Users/aman/.gradle/
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/312196d8834993734e167afc7b08e135/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/82fd5431a051eb32fa036e24c2c7da3b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/82fd5431a051eb32fa036e24c2c7da3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/7844d0fb32868a1f4accdf4a7bed3d93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/7844d0fb32868a1f4accdf4a7bed3d93/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7d4dfab10f52dd200cb324a32b9d9a4a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7d4dfab10f52dd200cb324a32b9d9a4a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:exifinterface:27.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/4417f44619e9b75276bed90589eff509/AndroidManifest.xml:20:5-44

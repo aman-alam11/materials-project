@@ -1,4 +1,4 @@
-#Tue Aug 07 13:57:42 EDT 2018
+#Tue Aug 07 16:21:24 EDT 2018
 base.0=/Users/aman/Desktop/xyz reader/materials-project/XYZReader/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
