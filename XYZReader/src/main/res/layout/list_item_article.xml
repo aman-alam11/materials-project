@@ -33,7 +33,7 @@
             <!--android:textColor="@color/ltgray"-->
             <!--android:alpha="0.3"-->
             <TextView
-                android:paddingTop="4dp"
+                android:layout_marginTop="8dp"
                 android:id="@+id/article_title"
                 style="@style/TextAppearance.AppCompat.Subhead"
                 android:layout_width="match_parent"
@@ -59,15 +59,12 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:textColor="#66FFCC"
+                android:layout_marginBottom="8dp"
                 tools:text="The subtitle goes here" />
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="10dp"
-        android:background="#FFF" />
+    <include layout="@layout/empty_view"/>
 
 </LinearLayout>
 

@@ -9,11 +9,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <android.support.v7.widget.CardView
-            xmlns:android="http://schemas.android.com/apk/res/android"
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?selectableItemBackground">
@@ -32,11 +32,12 @@
     </android.support.v4.widget.SwipeRefreshLayout>
 
     <!--android:layout_height="112dp"-->
+    <!--android:background="?colorPrimary"-->
     <FrameLayout
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?colorPrimary"
+        android:background="#000"
         android:elevation="8dp"
         android:paddingBottom="4dp"
         android:paddingLeft="16dp"
@@ -44,20 +45,30 @@
 
         <!--android:layout_marginLeft="@dimen/list_toolbar_side_margin"-->
         <!--android:layout_marginRight="@dimen/list_toolbar_side_margin"-->
+        <!--app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:layout_gravity="bottom"
-            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            android:layout_gravity="bottom">
 
-            <ImageView
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/logo" />
+                android:text="xyz reader"
+                android:textAllCaps="true"
+                android:textColor="@color/bright_green"
+                android:textSize="20sp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/logo" />-->
 
         </android.support.v7.widget.Toolbar>
+
     </FrameLayout>
 
+    <include layout="@layout/empty_view" />
 </FrameLayout>

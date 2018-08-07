@@ -40,10 +40,10 @@ public final class R {
         public static final int abc_action_bar_embed_tabs = 0x7f030000;
     }
     public static final class color {
-        public static final int notification_action_color_filter = 0x7f040040;
-        public static final int notification_icon_bg_color = 0x7f040041;
-        public static final int ripple_material_light = 0x7f04004d;
-        public static final int secondary_text_default_material_light = 0x7f04004f;
+        public static final int notification_action_color_filter = 0x7f040041;
+        public static final int notification_icon_bg_color = 0x7f040042;
+        public static final int ripple_material_light = 0x7f04004e;
+        public static final int secondary_text_default_material_light = 0x7f040050;
     }
     public static final class dimen {
         public static final int compat_button_inset_horizontal_material = 0x7f05004e;
@@ -127,12 +127,12 @@ public final class R {
         public static final int status_bar_notification_info_maxnum = 0x7f090005;
     }
     public static final class layout {
-        public static final int notification_action = 0x7f0a001f;
-        public static final int notification_action_tombstone = 0x7f0a0020;
-        public static final int notification_template_custom_big = 0x7f0a0027;
-        public static final int notification_template_icon_group = 0x7f0a0028;
-        public static final int notification_template_part_chronometer = 0x7f0a002c;
-        public static final int notification_template_part_time = 0x7f0a002d;
+        public static final int notification_action = 0x7f0a0020;
+        public static final int notification_action_tombstone = 0x7f0a0021;
+        public static final int notification_template_custom_big = 0x7f0a0028;
+        public static final int notification_template_icon_group = 0x7f0a0029;
+        public static final int notification_template_part_chronometer = 0x7f0a002d;
+        public static final int notification_template_part_time = 0x7f0a002e;
     }
     public static final class string {
         public static final int status_bar_notification_info_overflow = 0x7f0d0022;
