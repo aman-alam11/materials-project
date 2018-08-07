@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aman/Desktop/xyz reader/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9cf025530982554613a76caa088c7add/res/values-land/values-land.xml",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/res/values-land/macro_layout.xml",
+                    "source": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/res/values-land/macro_layout.xml",
                     "from": {
                         "startLines": "3,2",
                         "startColumns": "4,4",

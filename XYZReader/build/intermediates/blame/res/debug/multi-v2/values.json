@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aman/Desktop/xyz reader/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
-                {
-                    "source": "/Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "5,6,7,2,9,3",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "136,187,240,17,288,65",
-                        "endColumns": "50,52,46,47,33,69",
-                        "endOffsets": "182,235,282,60,317,130"
-                    },
-                    "to": {
-                        "startLines": "708,709,710,711,722,723",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "57400,57451,57504,57551,58891,58925",
-                        "endColumns": "50,52,46,47,33,69",
-                        "endOffsets": "57446,57499,57546,57594,58920,58990"
-                    }
-                },
                 {
                     "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/7844d0fb32868a1f4accdf4a7bed3d93/res/values/values.xml",
                     "from": {
@@ -55,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/res/values/macro_layout.xml",
+                    "from": {
+                        "startLines": "7,15,14,11,9,10,13,12,8,2,3,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "207,700,646,437,304,380,580,521,252,34,81,136",
+                        "endColumns": "44,56,53,55,75,56,65,58,51,46,54,49",
+                        "endOffsets": "247,752,695,488,375,432,641,575,299,76,131,181"
+                    },
+                    "to": {
+                        "startLines": "12,583,585,586,587,588,589,590,591,611,612,676",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "707,49603,49713,49767,49823,49899,49956,50022,50081,51497,51544,55104",
+                        "endColumns": "44,56,53,55,75,56,65,58,51,46,54,49",
+                        "endOffsets": "747,49655,49762,49818,49894,49951,50017,50076,50128,51539,51594,55149"
+                    }
+                },
+                {
                     "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/921c3b1d5c9421d45345130599db84b8/res/values/values.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10",
@@ -72,43 +72,24 @@
                     }
                 },
                 {
-                    "source": "/Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/res/values/styles.xml",
+                    "source": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "19,23",
-                        "startColumns": "4,4",
-                        "startOffsets": "706,802",
-                        "endLines": "21,25",
-                        "endColumns": "12,12",
-                        "endOffsets": "796,926"
+                        "startLines": "5,6,7,2,9,3",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "136,187,240,17,288,65",
+                        "endColumns": "50,52,46,47,33,69",
+                        "endOffsets": "182,235,282,60,317,130"
                     },
                     "to": {
-                        "startLines": "2133,2136",
-                        "startColumns": "4,4",
-                        "startOffsets": "152824,152919",
-                        "endLines": "2135,2138",
-                        "endColumns": "12,12",
-                        "endOffsets": "152914,153043"
+                        "startLines": "708,709,710,711,722,723",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "57400,57451,57504,57551,58891,58925",
+                        "endColumns": "50,52,46,47,33,69",
+                        "endOffsets": "57446,57499,57546,57594,58920,58990"
                     }
                 },
                 {
-                    "source": "/Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/res/values/macro_layout.xml",
-                    "from": {
-                        "startLines": "7,15,14,11,9,10,13,12,8,2,3,4",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "207,700,646,437,304,380,580,521,252,34,81,136",
-                        "endColumns": "44,56,53,55,75,56,65,58,51,46,54,49",
-                        "endOffsets": "247,752,695,488,375,432,641,575,299,76,131,181"
-                    },
-                    "to": {
-                        "startLines": "12,583,585,586,587,588,589,590,591,611,612,676",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "707,49603,49713,49767,49823,49899,49956,50022,50081,51497,51544,55104",
-                        "endColumns": "44,56,53,55,75,56,65,58,51,46,54,49",
-                        "endOffsets": "747,49655,49762,49818,49894,49951,50017,50076,50128,51539,51594,55149"
-                    }
-                },
-                {
-                    "source": "/Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/res/values/colors.xml",
+                    "source": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/res/values/colors.xml",
                     "from": {
                         "startLines": "24,23,18,22,20,21",
                         "startColumns": "4,4,4,4,4,4",
@@ -122,6 +103,23 @@
                         "startOffsets": "2045,3703,4639,5973,6020,6065",
                         "endColumns": "46,42,48,46,44,52",
                         "endOffsets": "2087,3741,4683,6015,6060,6113"
+                    }
+                },
+                {
+                    "source": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "3,2,6,8,7,4",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "90,36,240,338,284,143",
+                        "endColumns": "52,53,43,41,53,95",
+                        "endOffsets": "138,85,279,375,333,234"
+                    },
+                    "to": {
+                        "startLines": "584,592,595,596,597,638",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "49660,50133,50360,50404,50446,53178",
+                        "endColumns": "52,53,43,41,53,95",
+                        "endOffsets": "49708,50182,50399,50441,50495,53269"
                     }
                 },
                 {
@@ -220,20 +218,22 @@
                     }
                 },
                 {
-                    "source": "/Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/res/values/dimens.xml",
+                    "source": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "3,2,6,8,7,4",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "90,36,240,338,284,143",
-                        "endColumns": "52,53,43,41,53,95",
-                        "endOffsets": "138,85,279,375,333,234"
+                        "startLines": "19,23",
+                        "startColumns": "4,4",
+                        "startOffsets": "706,802",
+                        "endLines": "21,25",
+                        "endColumns": "12,12",
+                        "endOffsets": "796,926"
                     },
                     "to": {
-                        "startLines": "584,592,595,596,597,638",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "49660,50133,50360,50404,50446,53178",
-                        "endColumns": "52,53,43,41,53,95",
-                        "endOffsets": "49708,50182,50399,50441,50495,53269"
+                        "startLines": "2133,2136",
+                        "startColumns": "4,4",
+                        "startOffsets": "152824,152919",
+                        "endLines": "2135,2138",
+                        "endColumns": "12,12",
+                        "endOffsets": "152914,153043"
                     }
                 }
             ]

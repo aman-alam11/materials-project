@@ -55,6 +55,7 @@
             android:layout_marginTop="10dp"
             android:clickable="true"
             android:focusable="true"
+            android:elevation="40dp"
             android:foreground="?selectableItemBackground">
 
 
