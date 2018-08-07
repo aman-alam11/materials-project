@@ -1,21 +1,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <!--suppress AndroidLintContentDescription -->
-    <com.example.xyzreader.ui.DynamicHeightNetworkImageView
+    <!--<com.example.xyzreader.ui.DynamicHeightNetworkImageView-->
+    <!--android:id="@+id/thumbnail"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp" />-->
+
+    <ImageView
         android:id="@+id/thumbnail"
         android:layout_width="match_parent"
-        android:layout_height="100dp" />
+        android:layout_height="250dp"
+        android:scaleType="centerCrop" />
 
 
     <android.support.v7.widget.CardView
-        android:alpha="0.8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        android:alpha="0.8"
         android:elevation="30dp">
 
         <LinearLayout
@@ -27,7 +33,7 @@
             <!--android:textColor="@color/ltgray"-->
             <!--android:alpha="0.3"-->
             <TextView
-                android:textStyle="bold"
+                android:paddingTop="4dp"
                 android:id="@+id/article_title"
                 style="@style/TextAppearance.AppCompat.Subhead"
                 android:layout_width="match_parent"
@@ -39,17 +45,17 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:textColor="#66FFCC"
+                android:textStyle="bold"
                 tools:text="The title goes here" />
 
             <!--style="@style/TextAppearance.AppCompat.Body1"-->
             <TextView
-                android:textStyle="bold"
                 android:id="@+id/article_subtitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:maxLines="2"
-                android:paddingBottom="16dp"
+                android:paddingBottom="4dp"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:textColor="#66FFCC"
@@ -60,8 +66,9 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="10dp"
         android:background="#FFF" />
+
 </LinearLayout>
 
 

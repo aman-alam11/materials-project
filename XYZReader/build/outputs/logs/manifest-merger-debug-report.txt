@@ -9,6 +9,7 @@ MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/aman/.gradle/caches
 MERGED from [com.android.support:palette-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/palette-v7-27.1.1.aar/bd8d7b2ad548071609d2001088024de1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/6cfad0cbf17c3a3eb15c80c9ffdd0622/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/2594d501932c503e7e761d068466c7b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/aman/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/61429119645c8f7983a4114b46e6fdaf/AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:support-media-compat:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/921c3b1d5c9421d45345130599db84b8/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/67725e8d59086a08f7d9623f725689a2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bfdffc30a19e156ed64461d9416a6f4b/AndroidManifest.xml:17:1-22:12
@@ -16,6 +17,7 @@ MERGED from [com.android.support:support-core-ui:27.1.1] /Users/aman/.gradle/cac
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/312196d8834993734e167afc7b08e135/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/82fd5431a051eb32fa036e24c2c7da3b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7d4dfab10f52dd200cb324a32b9d9a4a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/4417f44619e9b75276bed90589eff509/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/39fc4ecb3232d6b64834d8c7870cbda6/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/8ecce3801b41c2ea46f3101020f293ca/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f3dccd022fe731836357f40e9fdcb891/AndroidManifest.xml:17:1-22:12
@@ -52,6 +54,8 @@ ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/A
 		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:9:22-76
 application
 ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:11:5-46:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/aman/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/61429119645c8f7983a4114b46e6fdaf/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/aman/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/61429119645c8f7983a4114b46e6fdaf/AndroidManifest.xml:7:5-12:19
 	android:label
 		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:14:9-41
 	android:icon
@@ -132,6 +136,8 @@ MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/aman/.gradle/cac
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/6cfad0cbf17c3a3eb15c80c9ffdd0622/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/2594d501932c503e7e761d068466c7b0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/2594d501932c503e7e761d068466c7b0/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/aman/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/61429119645c8f7983a4114b46e6fdaf/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/aman/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/61429119645c8f7983a4114b46e6fdaf/AndroidManifest.xml:5:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/921c3b1d5c9421d45345130599db84b8/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/921c3b1d5c9421d45345130599db84b8/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/67725e8d59086a08f7d9623f725689a2/AndroidManifest.xml:20:5-44
@@ -146,6 +152,8 @@ MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/aman/.gr
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/82fd5431a051eb32fa036e24c2c7da3b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7d4dfab10f52dd200cb324a32b9d9a4a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7d4dfab10f52dd200cb324a32b9d9a4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/4417f44619e9b75276bed90589eff509/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/4417f44619e9b75276bed90589eff509/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/39fc4ecb3232d6b64834d8c7870cbda6/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/39fc4ecb3232d6b64834d8c7870cbda6/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/8ecce3801b41c2ea46f3101020f293ca/AndroidManifest.xml:20:5-44
@@ -164,3 +172,11 @@ INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/mai
 		INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
 		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
 		INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/aman/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/61429119645c8f7983a4114b46e6fdaf/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/aman/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/61429119645c8f7983a4114b46e6fdaf/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/aman/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/61429119645c8f7983a4114b46e6fdaf/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/aman/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/61429119645c8f7983a4114b46e6fdaf/AndroidManifest.xml:9:13-64

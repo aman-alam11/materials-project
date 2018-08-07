@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop" />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:alpha="0.8"
+        android:elevation="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#808080"
+            android:orientation="vertical">
+
+            <!--android:textColor="@color/ltgray"-->
+            <!--android:alpha="0.3"-->
+            <TextView
+                android:id="@+id/article_title"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="30dp"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:paddingBottom="4dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:textColor="#66FFCC"
+                android:textStyle="bold"
+                tools:text="The title goes here" />
+
+            <!--style="@style/TextAppearance.AppCompat.Body1"-->
+            <TextView
+                android:id="@+id/article_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:textColor="#66FFCC"
+                android:textStyle="bold"
+                tools:text="The subtitle goes here" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#FFF" />
+
+</LinearLayout>

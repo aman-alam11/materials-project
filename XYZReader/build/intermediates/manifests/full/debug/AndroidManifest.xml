@@ -53,6 +53,10 @@
             android:name="com.example.xyzreader.data.ItemsProvider"
             android:authorities="com.example.xyzreader"
             android:exported="false" />
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.xyzreader.com.squareup.picasso"
+            android:exported="false" />
     </application>
 
 </manifest>
