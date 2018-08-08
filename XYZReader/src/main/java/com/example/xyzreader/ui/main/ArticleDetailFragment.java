@@ -25,6 +25,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
@@ -186,6 +187,7 @@ public class ArticleDetailFragment extends Fragment implements
     private Date parsePublishedDate() {
         try {
             String date = mCursor.getString(ArticleLoader.Query.PUBLISHED_DATE);
+            Toast.makeText(getActivity(), date, Toast.LENGTH_SHORT).show();
             return dateFormat.parse(date);
         } catch (ParseException ex) {
             Log.e(TAG, ex.getMessage());
@@ -231,6 +233,7 @@ public class ArticleDetailFragment extends Fragment implements
                                 + "</font>"));
 
             }
+
             bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY).replaceAll("(\r\n|\n)", "<br />")));
         } else {
             mRootView.setVisibility(View.GONE);
@@ -276,7 +279,7 @@ public class ArticleDetailFragment extends Fragment implements
 //            return Integer.MAX_VALUE;
 //        }
 
-        // account for parallax
+    // account for parallax
 //        return mIsCard
 //                ? (int) mPhotoContainerView.getTranslationY() + mPhotoView.getHeight() - mScrollY
 //                : mPhotoView.getHeight() - mScrollY;

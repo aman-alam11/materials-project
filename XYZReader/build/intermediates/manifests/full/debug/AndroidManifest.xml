@@ -22,13 +22,7 @@
         android:theme="@style/Theme.Bacon" >
         <activity
             android:name="com.example.xyzreader.ui.main.ArticleListActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name="com.example.xyzreader.ui.main.ArticleDetailActivity"
             android:parentActivityName="com.example.xyzreader.ui.main.ArticleListActivity" >
@@ -53,6 +47,15 @@
             android:name="com.example.xyzreader.data.ItemsProvider"
             android:authorities="com.example.xyzreader"
             android:exported="false" />
+
+        <activity android:name="com.example.xyzreader.Utils.SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
             android:authorities="com.example.xyzreader.com.squareup.picasso"

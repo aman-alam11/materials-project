@@ -20,7 +20,7 @@ public class ArticleDetailActivity extends AppCompatActivity {
                     View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE); }
         setContentView(R.layout.activity_article_detail);
 
-        ArticleDetailFragment articleDetailFragment = ArticleDetailFragment.newInstance(1);
+        ArticleDetailFragmentNew articleDetailFragment = ArticleDetailFragmentNew.newInstance(1);
         android.support.v4.app.FragmentManager manager = getSupportFragmentManager();
         manager.beginTransaction().add(R.id.container_fragment,articleDetailFragment).commit();
     }

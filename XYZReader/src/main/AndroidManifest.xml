@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.xyzreader"
     android:versionCode="1"
     android:versionName="1.0">
@@ -13,36 +15,41 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.Bacon">
-
         <activity
             android:name=".ui.main.ArticleListActivity"
-            android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
+            android:label="@string/app_name"/>
         <activity
             android:name=".ui.main.ArticleDetailActivity"
             android:parentActivityName=".ui.main.ArticleListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="vnd.android.cursor.item/vnd.com.example.xyzreader.items" />
             </intent-filter>
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.main.ArticleListActivity" />
         </activity>
 
-        <service android:name=".data.UpdaterService"
+        <service
+            android:name=".data.UpdaterService"
             android:exported="false" />
 
-        <provider android:name=".data.ItemsProvider"
+        <provider
+            android:name=".data.ItemsProvider"
             android:authorities="com.example.xyzreader"
             android:exported="false" />
 
+        <activity android:name=".Utils.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
