@@ -26,7 +26,7 @@
 
     <color name="bright_green">#66FFCC</color>
     <color name="dark_gray">#696969</color>
-    <color name="black">#FFF</color>
+    <color name="black">#000</color>
 
 
 </resources>

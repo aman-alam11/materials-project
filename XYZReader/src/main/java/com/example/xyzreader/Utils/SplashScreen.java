@@ -12,7 +12,7 @@ import com.example.xyzreader.R;
 import com.example.xyzreader.ui.main.ArticleListActivity;
 
 public class SplashScreen extends AppCompatActivity implements RequestQueueInstance.HasDataArrived{
-    private static final String mUdacityUrl = "https://go.udacity.com/xyz-reader-json";
+    public static final String mUdacityUrl = "https://go.udacity.com/xyz-reader-json";
     private CountDownTimer cdt;
 
     @Override
@@ -45,6 +45,7 @@ public class SplashScreen extends AppCompatActivity implements RequestQueueInsta
 //             Cached data is available
             // Simply move forward
             sendIntentToMain();
+            cdt.cancel();
         } else {
             makeInternetRequest();
         }
