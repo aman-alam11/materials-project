@@ -6,11 +6,13 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.app.ShareCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -37,6 +39,9 @@ public class ArticleDetailFragment extends Fragment {
     private View mRootView;
     private TextView articleBody;
     private TextView articleTitle;
+    private Button button1;
+    private Button button2;
+    private Button button3;
     private ProgressBar mBookLoadingPb;
     private ArrayList<XYZReader> mDataJson;
     CollapsingToolbarLayout collapsingToolbarLayout;
@@ -72,6 +77,9 @@ public class ArticleDetailFragment extends Fragment {
         articleBody = mRootView.findViewById(R.id.article_body);
         articleTitle = mRootView.findViewById(R.id.article_title);
         mBookLoadingPb = mRootView.findViewById(R.id.book_loading_pb);
+        button1 = mRootView.findViewById(R.id.button1);
+        button2 = mRootView.findViewById(R.id.button2);
+        button3 = mRootView.findViewById(R.id.button3);
         collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.collapsing_toolbar);
         collapsingToolbarLayout.setExpandedTitleColor(getResources().getColor(android.R.color.black));
         collapsingToolbarLayout.setContentScrimColor(getResources().getColor(R.color.black));
@@ -91,8 +99,31 @@ public class ArticleDetailFragment extends Fragment {
         }
 
         collapsingToolbarLayout.setTitle(mDataJson.get((int) mItemId).getTitle());
-        articleBody.setText(mDataJson.get((int) mItemId).getBody().substring(0, 1000));
-        mBookLoadingPb.setVisibility(View.INVISIBLE);
+        final String mainStory = mDataJson.get((int) mItemId).getBody();
+        final int mainStoryLength = mainStory.length();
+        final int firstChunk = mainStoryLength / 3;
+        final int secondChunk = mainStoryLength * (2 / 3);
 
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                articleBody.setText(mainStory.substring(0, 1000));
+            }
+        });
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                articleBody.setText(mainStory.substring(900, 2000));
+
+            }
+        });
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                articleBody.setText(mainStory.substring(3900, 5000));
+            }
+        });
+        mBookLoadingPb.setVisibility(View.INVISIBLE);
+        articleBody.setText(mainStory.substring((2 / 3) * mainStoryLength, mainStoryLength));
     }
 }
