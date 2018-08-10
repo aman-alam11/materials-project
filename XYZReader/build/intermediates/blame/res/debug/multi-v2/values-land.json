@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/aman/Desktop/xyz reader/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/aa62f1442690e1ccca5a09c15b2bc88a/res/values-land/values-land.xml",
+                    "source": "/Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/res/values-land/macro_layout.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,36",
+                        "endColumns": "57,51",
+                        "endOffsets": "141,83"
+                    },
+                    "to": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "328,386",
+                        "endColumns": "57,51",
+                        "endOffsets": "381,433"
+                    }
+                },
+                {
+                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b72e078f62cc9b52aef497ea089be02b/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +31,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/0a75a1760320932b5923a42952f8190d/res/values-land/values-land.xml",
+                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f4d98fad059a0c7d85729cdb280dff71/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,23 +47,6 @@
                         "endLines": "11",
                         "endColumns": "12",
                         "endOffsets": "615"
-                    }
-                },
-                {
-                    "source": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/res/values-land/macro_layout.xml",
-                    "from": {
-                        "startLines": "3,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "88,36",
-                        "endColumns": "57,51",
-                        "endOffsets": "141,83"
-                    },
-                    "to": {
-                        "startLines": "6,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "328,386",
-                        "endColumns": "57,51",
-                        "endOffsets": "381,433"
                     }
                 }
             ]

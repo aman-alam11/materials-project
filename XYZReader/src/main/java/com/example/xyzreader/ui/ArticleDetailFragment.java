@@ -28,6 +28,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.android.volley.VolleyError;
@@ -50,6 +51,7 @@ public class ArticleDetailFragment extends Fragment implements
     private Cursor mCursor;
     private long mItemId;
     private View mRootView;
+    private ProgressBar mProgressBar;
     private int mMutedColor = 0xFF333333;
     private ObservableScrollView mScrollView;
     private DrawInsetsFrameLayout mDrawInsetsFrameLayout;
@@ -57,7 +59,6 @@ public class ArticleDetailFragment extends Fragment implements
 
     private int mTopInset;
     private int mScrollY;
-    private boolean mIsCard = false;
     private int mStatusBarFullOpacityBottom;
 
     private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.sss");
@@ -67,7 +68,7 @@ public class ArticleDetailFragment extends Fragment implements
     private GregorianCalendar START_OF_EPOCH = new GregorianCalendar(2, 1, 1);
     private CollapsingToolbarLayout collapsingToolbarLayout;
     private ImageView mPhotoView;
-    //    private View mPhotoContainerView;
+//    private View mPhotoContainerView;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -92,7 +93,6 @@ public class ArticleDetailFragment extends Fragment implements
             mItemId = getArguments().getLong(ARG_ITEM_ID);
         }
 
-        mIsCard = getResources().getBoolean(R.bool.detail_is_card);
         mStatusBarFullOpacityBottom = getResources().getDimensionPixelSize(
                 R.dimen.detail_card_top_margin);
         setHasOptionsMenu(true);
@@ -117,30 +117,20 @@ public class ArticleDetailFragment extends Fragment implements
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
-//        mDrawInsetsFrameLayout = (DrawInsetsFrameLayout)
-//                mRootView.findViewById(R.id.draw_insets_frame_layout);
-//        mDrawInsetsFrameLayout.setOnInsetsCallback(new DrawInsetsFrameLayout.OnInsetsCallback() {
-//            @Override
-//            public void onInsetsChanged(Rect insets) {
-//                mTopInset = insets.top;
-//            }
-//        });
-        collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.collapsing_toolbar);
+        collapsingToolbarLayout = mRootView.findViewById(R.id.collapsing_toolbar);
+        mProgressBar = mRootView.findViewById(R.id.article_body_progress_bar);
 
-        mScrollView = (ObservableScrollView) mRootView.findViewById(R.id.scrollview);
+        mScrollView = mRootView.findViewById(R.id.scrollview);
         mScrollView.setCallbacks(new ObservableScrollView.Callbacks() {
             @Override
             public void onScrollChanged() {
                 mScrollY = mScrollView.getScrollY();
                 getActivityCast().onUpButtonFloorChanged(mItemId, ArticleDetailFragment.this);
-//                mPhotoContainerView.setTranslationY((int) (mScrollY - mScrollY / PARALLAX_FACTOR));
                 updateStatusBar();
             }
         });
 
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
-//        mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
-
         mStatusBarColorDrawable = new ColorDrawable(0);
 
         mRootView.findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
@@ -203,20 +193,16 @@ public class ArticleDetailFragment extends Fragment implements
             return;
         }
 
-//        TextView titleView = (TextView) mRootView.findViewById(R.id.article_title);
-//        TextView bylineView = (TextView) mRootView.findViewById(R.id.article_byline);
-//        bylineView.setMovementMethod(new LinkMovementMethod());
-        TextView bodyView = (TextView) mRootView.findViewById(R.id.article_body);
-
-
+        TextView bodyView = mRootView.findViewById(R.id.article_body);
         bodyView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Rosario-Regular.ttf"));
 
         if (mCursor != null) {
+            mProgressBar.setVisibility(View.INVISIBLE);
+            Log.e("mCursor is not null", "NOT NULL");
             mRootView.setAlpha(0);
             mRootView.setVisibility(View.VISIBLE);
             mRootView.animate().alpha(1);
-//            titleView.setText(mCursor.getString(ArticleLoader.Query.TITLE));
-            Date publishedDate = parsePublishedDate();
+//            Date publishedDate = parsePublishedDate();
 //            if (!publishedDate.before(START_OF_EPOCH.getTime())) {
 //                bylineView.setText(Html.fromHtml(
 //                        DateUtils.getRelativeTimeSpanString(
@@ -262,10 +248,8 @@ public class ArticleDetailFragment extends Fragment implements
             collapsingToolbarLayout.setCollapsedTitleTextColor(getResources().getColor(R.color.theme_primary));
 
         } else {
-            mRootView.setVisibility(View.GONE);
-//            titleView.setText("N/A");
-//            bylineView.setText("N/A");
-            bodyView.setText("N/A");
+            mProgressBar.setVisibility(View.VISIBLE);
+            Log.e("mCursor is null", " NULL");
         }
     }
 
@@ -298,15 +282,4 @@ public class ArticleDetailFragment extends Fragment implements
         mCursor = null;
         bindViews();
     }
-
-//     public int getUpButtonFloor() {
-//     if (mPhotoContainerView == null || mPhotoView.getHeight() == 0) {
-//     return Integer.MAX_VALUE;
-//     }
-//
-//     // account for parallax
-//     return mIsCard
-//     ? (int) mPhotoContainerView.getTranslationY() + mPhotoView.getHeight() - mScrollY
-//     : mPhotoView.getHeight() - mScrollY;
-//     }
 }
