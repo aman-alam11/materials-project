@@ -30,6 +30,9 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
+// TODO: Different Layout files for landscape
+// TODO: Coordinator layout
+// TODO: Master Slave for tablets
 
 /**
  * An activity representing a list of Articles. This activity has different presentations for
@@ -163,7 +166,6 @@ public class ArticleListActivity extends AppCompatActivity implements
             holder.titleView.setText(mCursor.getString(ArticleLoader.Query.TITLE));
             Date publishedDate = parsePublishedDate();
             if (!publishedDate.before(START_OF_EPOCH.getTime())) {
-
                 holder.subtitleView.setText(Html.fromHtml(
                         DateUtils.getRelativeTimeSpanString(
                                 publishedDate.getTime(),

@@ -14,7 +14,7 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?actionBarSize"
+            android:layout_height="?android:actionBarSize"
             android:layout_gravity="bottom"
             android:background="@color/black"
             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
@@ -40,7 +40,7 @@
             android:clickable="true"
             android:elevation="40dp"
             android:focusable="true"
-            android:foreground="?selectableItemBackground">
+            android:foreground="?android:selectableItemBackground">
 
 
             <android.support.v7.widget.RecyclerView

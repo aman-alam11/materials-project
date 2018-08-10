@@ -6,8 +6,8 @@
     density="420dpi"
     format="10"
     plugin-version="3.1.4"
-    timestamp="1533865622208"
-    token="-5612473072568984354"
+    timestamp="1533874529316"
+    token="-2471990121904388245"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
@@ -25,70 +25,8 @@
 
     <build
         build-mode="FULL"
-        timestamp="1533864531337"
+        timestamp="1533870003697"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/instant-run-apk/debug/XYZReader-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1533864856029"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1533865501075"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/aman/Desktop/xyz-reader-starter-code-master/XYZReader/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1533865596922"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
@@ -96,13 +34,16 @@
             location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -114,16 +55,13 @@
             location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/instant-run-apk/debug/XYZReader-debug.apk"
@@ -131,7 +69,51 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1533865622208"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1533871030661"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1533871045982"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1533872883704"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1533874529316"
         verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
