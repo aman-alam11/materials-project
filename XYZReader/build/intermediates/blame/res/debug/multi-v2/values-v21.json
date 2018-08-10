@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aman/Desktop/xyz reader/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f4d98fad059a0c7d85729cdb280dff71/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,266",
-                        "endLines": "4,5",
-                        "endColumns": "12,96",
-                        "endOffsets": "261,358"
-                    },
-                    "to": {
-                        "startLines": "164,228",
-                        "startColumns": "4,4",
-                        "startOffsets": "12574,17124",
-                        "endLines": "166,228",
-                        "endColumns": "12,96",
-                        "endOffsets": "12780,17216"
-                    }
-                },
-                {
-                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b72e078f62cc9b52aef497ea089be02b/res/values-v21/values-v21.xml",
+                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/aa62f1442690e1ccca5a09c15b2bc88a/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8c65bfee3815bff59cdb4a63d9aca5df/res/values-v21/values-v21.xml",
+                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c62931d241116825bf29e7f00e591ec4/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -61,7 +42,26 @@
                     }
                 },
                 {
-                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/12da336a2e62614faa0ff3c11de40ae9/res/values-v21/values-v21.xml",
+                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/0a75a1760320932b5923a42952f8190d/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,266",
+                        "endLines": "4,5",
+                        "endColumns": "12,96",
+                        "endOffsets": "261,358"
+                    },
+                    "to": {
+                        "startLines": "164,228",
+                        "startColumns": "4,4",
+                        "startOffsets": "12574,17124",
+                        "endLines": "166,228",
+                        "endColumns": "12,96",
+                        "endOffsets": "12780,17216"
+                    }
+                },
+                {
+                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/b7347ea4519fae6ef7bcabd4523f6de0/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",

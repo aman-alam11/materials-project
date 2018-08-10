@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aman/Desktop/xyz reader/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/12da336a2e62614faa0ff3c11de40ae9/res/values-v24/values-v24.xml",
+                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/b7347ea4519fae6ef7bcabd4523f6de0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b72e078f62cc9b52aef497ea089be02b/res/values-v24/values-v24.xml",
+                    "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/aa62f1442690e1ccca5a09c15b2bc88a/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

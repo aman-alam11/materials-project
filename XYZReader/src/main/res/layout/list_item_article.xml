@@ -1,66 +1,49 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
     android:orientation="vertical">
 
-    <ImageView
+    <com.example.xyzreader.ui.DynamicHeightNetworkImageView
         android:id="@+id/thumbnail"
+        android:scaleType="centerCrop"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:scaleType="centerCrop" />
+        android:layout_height="wrap_content"
+        android:background="@color/photo_placeholder" />
 
-
-    <android.support.v7.widget.CardView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:alpha="0.8"
-        android:elevation="30dp">
+        android:background="@color/dark_gray"
+        android:orientation="horizontal">
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/article_title"
+            style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#808080"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:textColor="@color/theme_primary" />
 
-            <!--android:textColor="@color/ltgray"-->
-            <!--android:alpha="0.3"-->
-            <TextView
-                android:id="@+id/article_title"
-                style="@style/TextAppearance.AppCompat.Subhead"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:elevation="30dp"
-                android:ellipsize="end"
-                android:maxLines="4"
-                android:paddingBottom="4dp"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
-                android:textColor="#66FFCC"
-                android:textStyle="bold"
-                tools:text="The title goes here" />
+        <TextView
+            android:id="@+id/article_subtitle"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/theme_primary" />
+    </LinearLayout>
 
-            <!--style="@style/TextAppearance.AppCompat.Body1"-->
-            <TextView
-                android:id="@+id/article_subtitle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:ellipsize="end"
-                android:maxLines="2"
-                android:paddingBottom="4dp"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
-                android:textColor="#66FFCC"
-                tools:text="The subtitle goes here" />
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-
-    <include layout="@layout/empty_view" />
-
-</LinearLayout>
-
-
-
+</FrameLayout>
