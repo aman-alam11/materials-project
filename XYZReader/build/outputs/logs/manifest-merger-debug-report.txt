@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:1:1-47:12
+INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:1:1-47:12
+INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:1:1-47:12
 MERGED from [com.android.support:support-v13:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/85a98cea730c9383d673f33cd7a6cc24/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f4d98fad059a0c7d85729cdb280dff71/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/6f183bdbef1168f22286f2669b4372fa/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b72e078f62cc9b52aef497ea089be02b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:palette-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/palette-v7-27.1.1.aar/ebe33804b7ece7bfca7aab2db66962e6/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/1a845d4f3e58f4a5d880e04a3d9e7b83/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:palette-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/palette-v7-27.1.1.aar/ebe33804b7ece7bfca7aab2db66962e6/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a26050524ad8ee89f1330e0a6374c211/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/12da336a2e62614faa0ff3c11de40ae9/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/0a877f996d36de87ddc2d39aab83a13b/AndroidManifest.xml:17:1-22:12
@@ -22,106 +22,104 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/aman/.gradle/caches/tr
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/01b6de756f409a479ec771bd079158d5/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0c39bb8e50a2eb0020bf7fb01a35c5a2/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9c9ed129c9ff2b40b10269ee8cb8165f/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:1:1-47:12
+INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:1:1-47:12
 	package
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:2:5-36
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:2:5-36
 	android:versionName
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:4:5-30
-		INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
-		INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:1:11-69
 	android:versionCode
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:3:5-28
-		INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
-		INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:6:5-67
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:7:5-81
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.BROADCAST_STICKY
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:8:5-75
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:8:5-75
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:8:22-72
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:8:22-72
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:9:5-79
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:9:22-76
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:9:22-76
 application
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:11:5-46:19
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:11:5-45:19
 	android:label
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:14:9-41
 	android:icon
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:15:9-52
 activity#com.example.xyzreader.ui.ArticleListActivity
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:17:9-24:20
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:17:9-24:20
 	android:label
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:19:13-45
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:19:13-45
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:18:13-51
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:18:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:20:13-23:29
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:22:27-74
 activity#com.example.xyzreader.ui.ArticleDetailActivity
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:26:9-37:20
-	android:parentActivityName
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:28:13-65
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:26:9-36:20
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:27:13-53
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:27:13-53
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/vnd.com.example.xyzreader.items
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:29:13-33:29
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:28:13-32:29
 action#android.intent.action.VIEW
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:30:17-69
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:30:25-66
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:29:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:31:17-76
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:30:17-76
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:31:27-73
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:30:27-73
 data
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:32:17-100
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:31:17-100
 	android:mimeType
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:32:23-97
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:31:23-97
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:34:13-36:59
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:33:13-35:59
 	android:value
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:36:17-56
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:35:17-56
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:35:17-63
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:34:17-63
 service#com.example.xyzreader.data.UpdaterService
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:39:9-40:40
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:38:9-39:40
 	android:exported
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:40:13-37
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:39:18-53
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:38:18-53
 provider#com.example.xyzreader.data.ItemsProvider
-ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:42:9-44:40
+ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:41:9-43:40
 	android:authorities
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:43:13-56
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:42:13-56
 	android:exported
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:44:13-37
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml:42:19-53
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml:41:19-53
 uses-sdk
-INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
-INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
+INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml
+INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml
 MERGED from [com.android.support:support-v13:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/85a98cea730c9383d673f33cd7a6cc24/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v13:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/85a98cea730c9383d673f33cd7a6cc24/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f4d98fad059a0c7d85729cdb280dff71/AndroidManifest.xml:20:5-44
@@ -130,10 +128,10 @@ MERGED from [com.android.support:support-v4:27.1.1] /Users/aman/.gradle/caches/t
 MERGED from [com.android.support:support-v4:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/6f183bdbef1168f22286f2669b4372fa/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b72e078f62cc9b52aef497ea089be02b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b72e078f62cc9b52aef497ea089be02b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:palette-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/palette-v7-27.1.1.aar/ebe33804b7ece7bfca7aab2db66962e6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:palette-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/palette-v7-27.1.1.aar/ebe33804b7ece7bfca7aab2db66962e6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/1a845d4f3e58f4a5d880e04a3d9e7b83/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/1a845d4f3e58f4a5d880e04a3d9e7b83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/palette-v7-27.1.1.aar/ebe33804b7ece7bfca7aab2db66962e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/palette-v7-27.1.1.aar/ebe33804b7ece7bfca7aab2db66962e6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a26050524ad8ee89f1330e0a6374c211/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a26050524ad8ee89f1330e0a6374c211/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] /Users/aman/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/12da336a2e62614faa0ff3c11de40ae9/AndroidManifest.xml:20:5-44
@@ -160,13 +158,13 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/aman/.gradle/caches/
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0c39bb8e50a2eb0020bf7fb01a35c5a2/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9c9ed129c9ff2b40b10269ee8cb8165f/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/aman/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9c9ed129c9ff2b40b10269ee8cb8165f/AndroidManifest.xml:20:5-44
-INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
-INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
+INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml
+INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
-		INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
-		ADDED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
-		INJECTED from /Users/aman/Desktop/xyz reader/materials-project/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml
+		ADDED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/AndroidManifest.xml

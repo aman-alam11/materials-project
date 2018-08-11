@@ -30,10 +30,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
-// TODO: Different Layout files for landscape
-// TODO: Coordinator layout
-// TODO: Icon color
-// TODO: Master Slave for tablets
 
 
 /**

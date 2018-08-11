@@ -7,22 +7,4 @@
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
-    <FrameLayout
-        android:id="@+id/up_container"
-        android:layout_width="match_parent"
-        android:layout_height="?android:actionBarSize"
-        android:background="@android:color/transparent">
-
-        <!--TODO: V21-->
-        <ImageButton
-            android:id="@+id/action_up"
-            android:layout_width="56dp"
-            android:layout_height="?android:actionBarSize"
-            android:background="?android:selectableItemBackgroundBorderless"
-            android:contentDescription="@string/up"
-            android:src="@drawable/ic_arrow_back"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            tools:targetApi="lollipop" />
-    </FrameLayout>
 </FrameLayout>

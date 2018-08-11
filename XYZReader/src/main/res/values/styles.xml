@@ -17,12 +17,15 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <!--https://material.io/design/environment/elevation.html#-->
+    <style name="Theme.MaterialDesign" parent="@style/Theme.AppCompat.DayNight.NoActionBar" />
 
+    <style name="Theme.MaterialDesign.Detail">
+        <item name="android:actionBarSize">50dp</item>
+        <item name="android:colorPrimary">@color/theme_primary</item>
+        <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="android:colorAccent">@color/theme_accent</item>
     </style>
 
-    <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
-    </style>
 
 </resources>

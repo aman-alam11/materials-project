@@ -19,12 +19,10 @@
     <color name="photo_placeholder">#ccc</color>
 
     <color name="theme_primary">#66FFCC</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
+    <color name="theme_primary_dark">#66ffae</color>
+    <color name="theme_accent">#696969</color>
+
+
     <color name="ltgray">#ffe0e0e0</color>
-
-
-    <color name="white">#FFF</color>
-    <color name="black">#000</color>
     <color name="dark_gray">#696969</color>
 </resources>

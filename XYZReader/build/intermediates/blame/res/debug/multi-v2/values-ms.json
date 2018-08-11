@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aman/Desktop/xyz reader/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
+            "outputFile": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
             "map": [
                 {
                     "source": "/Users/aman/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8c65bfee3815bff59cdb4a63d9aca5df/res/values-ms/values-ms.xml",
