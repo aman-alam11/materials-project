@@ -40,8 +40,7 @@
                 app:layout_collapseMode="parallax"
                 android:background="@color/dark_gray"
                 android:alpha="@dimen/card_detail_alpha"
-                android:padding="@dimen/card_detail_padding"
-                app:layout_collapseParallaxMultiplier="0">
+                android:padding="@dimen/card_detail_padding">
 
                 <TextView
                     android:id="@+id/article_title"
@@ -61,7 +60,7 @@
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 app:layout_collapseMode="pin"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
@@ -69,7 +68,6 @@
     </android.support.design.widget.AppBarLayout>
 
     <!--CHANGE BACKGROUND FOR DARK MODE-->
-
     <!--<ImageButton-->
         <!--android:id="@+id/brightness_fab"-->
         <!--android:layout_width="@dimen/fab_width"-->
@@ -82,7 +80,6 @@
         <!--android:contentDescription="@string/action_share"-->
         <!--android:elevation="@dimen/fab_elevation"-->
         <!--android:src="@mipmap/ic_share"-->
-        <!--android:visibility="gone"-->
         <!--android:stateListAnimator="@anim/fab_state_list_anim" />-->
 
     <ImageButton

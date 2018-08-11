@@ -147,7 +147,7 @@ public class ArticleDetailFragment extends Fragment implements
         TextView authorView = mRootView.findViewById(R.id.article_author);
 //        ImageButton brightnessFab = mRootView.findViewById(R.id.brightness_fab);
 //        final MaxWidthLinearLayout maxWidthLinearLayout = mRootView.findViewById(R.id.max_width_linear_layout);
-
+//
 //        brightnessFab.setOnClickListener(new View.OnClickListener() {
 //            int isTrueToneEnabled = 0;
 //
