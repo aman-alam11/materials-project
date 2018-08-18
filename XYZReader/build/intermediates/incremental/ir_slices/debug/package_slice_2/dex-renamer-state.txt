@@ -1,4 +1,4 @@
-#Sat Aug 11 19:02:04 EDT 2018
-base.0=/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/transforms/dexMerger/debug/21
+#Sat Aug 18 17:30:36 EDT 2018
+base.0=/Users/aman/Documents/android/material-app/materials-project/XYZReader/build/intermediates/transforms/dexMerger/debug/2
 path.0=classes.dex
 renamed.0=classes.dex

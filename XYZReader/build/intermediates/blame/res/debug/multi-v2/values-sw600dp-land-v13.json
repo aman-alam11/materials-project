@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+            "outputFile": "/Users/aman/Documents/android/material-app/materials-project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/aman/Desktop/materials-project/materials-project/XYZReader/src/main/res/values-sw600dp-land/macro_layout.xml",
+                    "source": "/Users/aman/Documents/android/material-app/materials-project/XYZReader/src/main/res/values-sw600dp-land/macro_layout.xml",
                     "from": {
                         "startLines": "2,5,4",
                         "startColumns": "4,4,4",
