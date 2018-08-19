@@ -5,4 +5,8 @@ This project uses standard libraries like volley but make focus is on material d
 Also the focus is to smoothly, easily and beautifully scroll/show content with more than 10000s of lines...
 
 Check out the screenshots:
+![MainActivity - Home Screen](https://github.com/aman-alam11/materials-project/blob/master/Screenshots/Home.png)
 
+![Story Details](https://github.com/aman-alam11/materials-project/blob/master/Screenshots/2.png)
+
+![App Gif](https://github.com/aman-alam11/materials-project/blob/master/Screenshots/materialapp.gif)
