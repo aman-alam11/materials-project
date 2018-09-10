@@ -14,5 +14,5 @@ Check out the screenshots:
 
 ![App Gif](https://github.com/aman-alam11/materials-project/blob/master/Screenshots/materialapp.gif)
 
-The project was developed as part of Google Udacity Android Developer Nanodegree Scholarship given to me (For this project check out the ![Udacity homepage for Scholarship](https://www.udacity.com/grow-with-google) and about the project here https://github.com/udacity/xyz-reader-starter-code). I am among the 1000 finalists in the Android Intermediate Track who cleared all previous rounds for the Google Scholarship.
+The project was developed as part of Google Udacity Android Developer Nanodegree Scholarship given to me (Check out the Udacity homepage for Scholarship https://www.udacity.com/grow-with-google and about the project here https://github.com/udacity/xyz-reader-starter-code). I am among the 1000 finalists in the Android Intermediate Track who cleared all previous rounds for the Google Scholarship.
 
