@@ -1,5 +1,8 @@
 # materials-project
-An e-book reader that uses material UI and shows all books (limited stories for now)
+An e-book reader that uses material UI and shows all books (limited stories for now).
+
+The project was developed as part of Google Udacity Android Developer Nanodegree Scholarship given to me (Check out the Udacity homepage for Scholarship https://www.udacity.com/grow-with-google .The project's started code is provided to us here https://github.com/udacity/xyz-reader-starter-code). I am among the 1000 finalists in the Android Intermediate Track who cleared all previous rounds for the Google Scholarship.
+
 
 Working Demo: https://youtu.be/woqsLMxC7yA
 
@@ -13,6 +16,3 @@ Check out the screenshots:
 ![Story Details](https://github.com/aman-alam11/materials-project/blob/master/Screenshots/2.png)
 
 ![App Gif](https://github.com/aman-alam11/materials-project/blob/master/Screenshots/materialapp.gif)
-
-The project was developed as part of Google Udacity Android Developer Nanodegree Scholarship given to me (Check out the Udacity homepage for Scholarship https://www.udacity.com/grow-with-google and about the project here https://github.com/udacity/xyz-reader-starter-code). I am among the 1000 finalists in the Android Intermediate Track who cleared all previous rounds for the Google Scholarship.
-
